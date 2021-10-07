@@ -1,0 +1,61 @@
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    
+
+}
+#background {
+    height: 725px;
+    background-color: #a8dadc;
+}
+header {
+    background-color: #e63946;
+}
+nav a:hover {
+    background-color: #e63946;
+}
+nav a {
+    text-align: center;
+    color: #a8dadc;
+    text-decoration: none;
+}
+h4 {
+    color: #a8dadc;
+}
+.book, .join {
+    background-color: #e63946;
+    text-align: center;
+    text-decoration: none;
+}
+.book.hover, .join:hover {
+    background-color: #e63946;
+}
+.msg h2 {
+    color: #e63946;
+}
+.msg {
+    background-color: #a8dadc;
+}
+.msg p {
+    color: #e63946;
+}
+footer h3 {
+    color: #457b9d;
+    text-decoration: underline;
+}
+footer a {
+    color: #457b9d;
+    text-align: center;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #457b9d;
+    text-decoration: underline;
+}
+.icon {
+    width: 80px;
+}
+footer {
+    background-color:#e63946 ;
+}
