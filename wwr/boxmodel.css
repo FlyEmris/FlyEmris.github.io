@@ -1,0 +1,48 @@
+body {
+    background-color: chartreuse;
+}
+h2 {
+    font-size: 40px;
+}
+.about {
+    background-color: crimson;
+    padding:30px;
+    border-radius: 15px;
+    max-width: 50%;
+    box-sizing: border-box;
+
+}
+.about h2 {
+    color:darkcyan
+}
+.contact {
+    background-color: fuchsia;
+    border:solid 1px white;
+
+}
+.contact p {
+    color: white;
+}
+.info {
+    width: 150px;
+    text-align: center;
+    border-radius: 250px;
+    background-color: steelblue;
+    height: 150px;
+}
+.info h2 {
+    font-size: 25px;
+    padding-top: 44px;
+}
+main {
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    gap:20px;
+    border:double 1px white;
+}
+main section div {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    border:solid 2px black  ;
+} 
