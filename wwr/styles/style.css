@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap');
+
+
 body {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
+    font-family: "Indie Flower";
+    padding: 0;
     
-
+}
+h2 {
+    margin: 0;
 }
 #background {
     height: 725px;
