@@ -12,9 +12,17 @@ body {
 h2 {
     margin: 0;
 }
+.home-title {
+    font-family: "Caveat Family";
+    font-size: 2em;
+    margin-top: 10px;
+}
 #background {
     height: 725px;
     background-color: #a8dadc;
+}
+#logo_link {
+    padding-top: 5px;
 }
 header {
     background-color: #e63946;
@@ -26,6 +34,7 @@ nav a {
     text-align: center;
     color: #a8dadc;
     text-decoration: none;
+    padding: 35px;
 }
 h4 {
     color: #a8dadc;
@@ -34,6 +43,10 @@ h4 {
     background-color: #e63946;
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book.hover, .join:hover {
     background-color: #e63946;
@@ -43,9 +56,13 @@ h4 {
 }
 .msg {
     background-color: #a8dadc;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg p {
     color: #e63946;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: #457b9d;
@@ -62,7 +79,28 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer {
     background-color:#e63946 ;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border:solid 10px;
+}
+main section img {
+    box-sizing: border-box;
 }
