@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap');
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Indie Flower";
+    padding: 0;
+}
+
+header {
+        background-color: #2ECFCA;
+        display: grid;
+        grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: #e63946;
+}
+nav a {
+    text-align: center;
+    color: #F9F3DE;
+    text-decoration: none;
+    padding: 35px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 80px;
+}
+#poetry-img {
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+    align-self: center;
+    border-radius: 10px;
+    border-color: #F9F3DE;
+}
+.opening-text {
+    background-color: #2ECFCA;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.opening-text p{
+    color: #F8DF77;
+}
+.msg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #2ECFCA;
+    line-height: 1.5em;
+    padding: 25px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg h2 {
+    color: #F8DF77;
+    grid-row: 1/2;
+    grid-column: 2/2;
+
+}
+.msg p {
+    color: #F8DF77;
+    font-size: 1em;
+    padding-bottom: 15px;
+    grid-row: 1/2;
+    grid-column: 2/2;
+    padding-top: 40px;
+}
+.notebook {
+    height: 400px;
+    width: 600px;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-radius: 10px;
+}
+#thoughts {
+    width: 800px;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: -150px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 10px;
+}
+footer {
+    background-color: #2ECFCA;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+footer h3 {
+    color: #F9F3DE;
+    text-decoration: underline;
+}
+footer a {
+    color: #F9F3DE;
+    text-align: center;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #F9F3DE;
+    text-decoration: underline;
+}
