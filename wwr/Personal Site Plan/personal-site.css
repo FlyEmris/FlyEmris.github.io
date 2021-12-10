@@ -193,6 +193,29 @@ nav a {
     margin-bottom: 20px;
     margin-left: 50px;
 }
+/* This is the start to the 3rd page */
+#just-start {
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    align-self: center;
+    border-radius: 10px;
+    border-color: #F9F3DE;
+}
+.text-box {
+    background-color: #2ECFCA;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#typewritter {
+    width: 800px;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: -150px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 10px;
+}
 footer {
     background-color: #2ECFCA;
     padding: 25px 50px;
