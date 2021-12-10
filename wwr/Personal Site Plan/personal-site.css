@@ -89,6 +89,43 @@ nav a {
     box-shadow: 5px 5px 10px #6f7364;
     border-radius: 10px;
 }
+ /* This is the start to the second page */
+
+
+.poe {
+    display: grid;
+    grid: 1fr 1fr;
+    background-color: #2ECFCA;
+    margin-top: 20px;
+}
+.raven {
+    width: 600px;
+    height: 500px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.poe h3 {
+    grid-row: 1/2;
+    grid-column: 2/2;
+    margin-right: 50px;
+    color: #F8DF77;
+    margin-left: 10px;
+    font-size: 50px;
+}
+.poe p {
+    grid-row: 1/2;
+    grid-column: 2/2;
+    margin-top: 150px;
+    margin-right: 50px;
+    color: #F8DF77;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
 footer {
     background-color: #2ECFCA;
     padding: 25px 50px;
